@@ -1,0 +1,42 @@
+---
+import SocialButton from "./SocialButton.astro";
+import Info from "./Info.astro";
+---
+
+
+<section class="grid place-content-center md:place-content-stretch md:grid-cols-[35%_auto] md:px-0">
+
+    <div class="md:bg-primary md:h-screen flex items-center justify-center md:justify-end md:pr-[2rem] mb-[3rem] mt-[3rem] md:mb-0 md:mt-0">
+        <img class="w-[12rem] h-[12rem] md:w-[14.25rem] md:h-[14.25rem]" src="profile-image.png" alt="Imagem perfil" title="Imagem perfil">
+    </div>
+
+
+    <div class="bg-secondary flex flex-col items-start justify-center md:pl-[2rem]">
+
+        <div class="flex flex-col items-center md:flex-row gap-[2rem] md:mt-[20rem]">
+
+           <div class="flex flex-col">
+            <h1 class="font-roboto font-[300] text-[5rem] text-primary leading-[4rem] md:text-left">caio</h1>
+            <h2 class="font-roboto font-[700] uppercase text-[5rem] leading-[4rem] text-secondary md:text-left">augusto</h2>
+            <span class="font-roboto font-[300] text-[1.7rem] md:text-[2.4rem] text-primary mt-[1.25rem]  md:text-left">Designer Gráfico & Front-end</span>
+           </div>
+
+           <div class="md:mt-[9rem]">
+
+            <SocialButton />
+
+           </div>
+
+
+        </div>
+
+        <div class="md:mt-[13.30rem]">
+
+           <Info /> 
+
+        </div>
+
+    </div>
+    
+
+</section>
