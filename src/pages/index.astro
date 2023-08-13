@@ -1,5 +1,13 @@
 ---
 import Nav from "../components/Nav.astro"
+import Intro from "../components/Intro.astro";
+import Expertise from "../components/Expertise.astro";
+import Skills from "../components/Skills.astro";
+import Xp from "../components/Xp.astro";
+import Education from "../components/Education.astro";
+import Perfil from "../components/Perfil.astro";
+import Portfolio from "../components/Portfolio.astro";
+import Footer from "../components/Footer.astro";
 ---
 
 <html lang="pt-br">
@@ -9,6 +17,8 @@ import Nav from "../components/Nav.astro"
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>CV Portfolio</title>
+
+		<!--Google fonts-->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
@@ -16,6 +26,14 @@ import Nav from "../components/Nav.astro"
 	<body class="bg-secondary md:bg-transparent">
 
 		<Nav />
+		<Intro />
+		<Expertise />
+		<Skills />
+		<Xp />
+		<Education />
+		<Perfil />
+		<Portfolio />
+		<Footer />
 		
 	</body>
 </html>

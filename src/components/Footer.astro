@@ -1,0 +1,45 @@
+---
+import SocialButton from "./SocialButton.astro";
+import Info from "./Info.astro";
+---
+
+<section class="grid md:place-content-stretch md:grid-cols-[35%_auto] md:px-0">
+
+    <div class="md:bg-primary md:min-h-[26.93rem] pt-[5.30rem] md:pr-[2rem] px-[1rem]">
+       
+        <h3 class="text-third font-[700] md:text-right uppercase">contato</h3>
+        <p class="text-primary font-[300] md:text-right">Se precisar estarei pronto.</p>
+        
+    </div>
+
+
+    <div class="md:bg-secondary md:pl-[2rem] px-[1rem]">
+
+        <div class="flex flex-col gap-[2rem] md:mt-[4.80rem]">
+
+            <div class="mt-[-1rem]">
+    
+               <Info /> 
+    
+            </div>
+ 
+
+            <div class="flex flex-col md:flex-row gap-[2rem]">
+                <div class="flex flex-col">
+                    <h1 class="font-roboto font-[300] text-[5rem] text-primary leading-[4rem] md:text-left">caio</h1>
+                    <h2 class="font-roboto font-[700] uppercase text-[5rem] leading-[4rem] text-secondary md:text-left">augusto</h2>
+                    <span class="font-roboto font-[300] text-[1.7rem] md:text-[2.4rem] text-primary mt-[1.25rem]  md:text-left">Designer Gráfico & Front-end</span>
+                   </div>
+        
+                   <div class="md:mt-[9rem]">
+        
+                    <SocialButton />
+        
+                   </div>
+            </div>
+         </div>
+ 
+
+    </div>
+
+</section>

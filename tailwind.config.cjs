@@ -6,6 +6,7 @@ module.exports = {
 			backgroundColor:{
 				primary: '#2B2C2C',
 				secondary:'#333333',
+				third: '#F8BB10',
 				button: '#2D2E2E',
 				outline: '#C6C6C6'
 			},
@@ -23,6 +24,9 @@ module.exports = {
 			fontFamily: {
 				'roboto': ['Roboto', 'sans-serif'],
 			},
+			borderColor: {
+				primary: '#F8BB10'
+			}
 		},
 	},
 	plugins: ['prettier-plugin-tailwindcss'],
